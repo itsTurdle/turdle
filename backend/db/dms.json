@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1752255670949mtlvftgwq",
+    "users": [
+      "1752255621864k4338mjob",
+      "1752255662773fx0x8wuhe"
+    ],
+    "messages": [
+      {
+        "sender": "1752255621864k4338mjob",
+        "content": "Hello from testuser!",
+        "timestamp": "2025-07-11T17:41:10.950Z"
+      }
+    ],
+    "createdAt": "2025-07-11T17:41:10.949Z",
+    "updatedAt": "2025-07-11T17:41:10.950Z",
+    "_id": "1752255670949mtlvftgwq"
+  }
+]

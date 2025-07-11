@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1752255621864k4338mjob",
+    "username": "testuser",
+    "password": "$2a$10$7XzGHVTkTtJqGn0l0kFTru2D.oQDpnSYRt9.bZhEA8Y3Mvy0.H9AG",
+    "createdAt": "2025-07-11T17:40:21.864Z",
+    "updatedAt": "2025-07-11T17:40:21.864Z"
+  },
+  {
+    "id": "1752255662773fx0x8wuhe",
+    "username": "testuser2",
+    "password": "$2a$10$DJQu7rBIbT7WsMQhjQwSqOwV6XVi6f64yfPVDUwCP0JnLylsamdMK",
+    "createdAt": "2025-07-11T17:41:02.773Z",
+    "updatedAt": "2025-07-11T17:41:02.773Z"
+  }
+]
