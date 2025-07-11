@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": "3117632d-bbb1-429d-9fb8-5877deb2d7c9",
+      "username": "finaltest",
+      "password": "$2a$10$ktoQB1EZVEf1vWZIKTXlo.1Xg1Tx31677Ye2keJpzBTgmplRsukrC",
+      "createdAt": "2025-07-11T17:52:15.140Z",
+      "updatedAt": "2025-07-11T17:52:15.140Z"
+    }
+  ],
+  "dms": []
+}

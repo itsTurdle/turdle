@@ -1,15 +1,16 @@
 import express from "express";
-import DM from "../models/DM.js";
+import { DM, User, readDB, writeDB } from "../lib/jsonDB.js";
 
 const router = express.Router();
 
 // Get DMs for the user
 router.get("/", async (req, res) => {
-  const dms = await DM.find({ users: req.userId })
-    .populate("users", "username _id")
-    .populate("messages.sender", "username _id")
-    .exec();
-  res.json(dms);
+  const dms = await DM.find({ users: req.userId });
+  const users = await User.find({});
+  
+  // Populate user data manually
+  const populatedDMs = await DM.populate(dms, users);
+  res.json(populatedDMs);
 });
 
 // Send a message (create DM if it doesn't exist)
@@ -22,9 +23,9 @@ router.post("/", async (req, res) => {
       messages: []
     });
   }
-  const msg = { sender: req.userId, content };
+  const msg = { sender: req.userId, content, timestamp: new Date().toISOString() };
   dm.messages.push(msg);
-  await dm.save();
+  await DM.save(dm);
   res.json(msg);
 });
 
