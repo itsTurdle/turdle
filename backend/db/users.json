@@ -1,16 +1,16 @@
 [
   {
-    "id": "1752255621864k4338mjob",
-    "username": "testuser",
-    "password": "$2a$10$7XzGHVTkTtJqGn0l0kFTru2D.oQDpnSYRt9.bZhEA8Y3Mvy0.H9AG",
-    "createdAt": "2025-07-11T17:40:21.864Z",
-    "updatedAt": "2025-07-11T17:40:21.864Z"
+    "id": "17522559666896oynebyv5",
+    "username": "alice",
+    "password": "$2a$10$vSmUn6MeWaEa3vGx8I/YxOMnCDMMjLyVm2EpQLgzy43IBmeYqemPu",
+    "createdAt": "2025-07-11T17:46:06.689Z",
+    "updatedAt": "2025-07-11T17:46:06.689Z"
   },
   {
-    "id": "1752255662773fx0x8wuhe",
-    "username": "testuser2",
-    "password": "$2a$10$DJQu7rBIbT7WsMQhjQwSqOwV6XVi6f64yfPVDUwCP0JnLylsamdMK",
-    "createdAt": "2025-07-11T17:41:02.773Z",
-    "updatedAt": "2025-07-11T17:41:02.773Z"
+    "id": "17522559667890trrmi1c8",
+    "username": "bob",
+    "password": "$2a$10$Dr5Z3/tF37NdgfcuWcWTN.8cZxtCtzFW6mfeaiIK/S3l.dV5hie2C",
+    "createdAt": "2025-07-11T17:46:06.789Z",
+    "updatedAt": "2025-07-11T17:46:06.789Z"
   }
 ]

@@ -1,19 +1,24 @@
 [
   {
-    "id": "1752255670949mtlvftgwq",
+    "id": "1752255966930rm09crkw7",
     "users": [
-      "1752255621864k4338mjob",
-      "1752255662773fx0x8wuhe"
+      "17522559667890trrmi1c8",
+      "17522559666896oynebyv5"
     ],
     "messages": [
       {
-        "sender": "1752255621864k4338mjob",
-        "content": "Hello from testuser!",
-        "timestamp": "2025-07-11T17:41:10.950Z"
+        "sender": "17522559667890trrmi1c8",
+        "content": "Hi Alice! How are you?",
+        "timestamp": "2025-07-11T17:46:06.930Z"
+      },
+      {
+        "sender": "17522559666896oynebyv5",
+        "content": "Another test message",
+        "timestamp": "2025-07-11T17:46:18.234Z"
       }
     ],
-    "createdAt": "2025-07-11T17:41:10.949Z",
-    "updatedAt": "2025-07-11T17:41:10.950Z",
-    "_id": "1752255670949mtlvftgwq"
+    "createdAt": "2025-07-11T17:46:06.930Z",
+    "updatedAt": "2025-07-11T17:46:18.234Z",
+    "_id": "1752255966930rm09crkw7"
   }
 ]
